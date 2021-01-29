@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Install prerequisites
         run: |
+          apt list --installed
+
           apt update --quiet --quiet
           apt install --no-install-recommends --quiet --yes \
                   patch \
