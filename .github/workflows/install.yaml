@@ -8,7 +8,7 @@ jobs:
   install:
     runs-on: ubuntu-latest
 
-    container: ubuntu:18.04
+    container: ubuntu/ubuntu:18.04
 
     env:
       DEBIAN_FRONTEND: noninteractive
